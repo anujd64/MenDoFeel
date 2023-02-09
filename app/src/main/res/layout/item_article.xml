@@ -1,0 +1,85 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="15dp"
+    android:layout_marginTop="15dp"
+    android:elevation="8dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="15dp">
+
+
+<!--    android:background="@drawable/item_bacground"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/url_to_image"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:paddingBottom="5dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10percent"/>
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/url_to_image"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="175dp"-->
+<!--            android:paddingBottom="5dp"-->
+<!--            android:scaleType="centerCrop" />-->
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/source_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text=""
+            android:textSize="14sp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/published_at"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingBottom="5dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:paddingBottom="5dp"
+            android:text=""
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:paddingBottom="5dp"
+
+            android:text="" />
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

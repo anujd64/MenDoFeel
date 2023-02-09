@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MenDoFeel</string>
+    <string name="news_api">NewsApi</string>
+</resources>
