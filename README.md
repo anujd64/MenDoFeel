@@ -1,4 +1,4 @@
-# MenDoFeel
+# MenDoFeel Assignment
 
 - MVVM architecture
 - Retrofit to make api calls
